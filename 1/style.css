@@ -1,0 +1,28 @@
+body{
+	background-color:#000;
+}
+
+#game{
+    width: 450px;
+	height: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.cell{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: 1px solid red;
+	box-sizing: border-box;
+	line-height: 150px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 150px;
+	text-transform: uppercase;
+	color: #960505;
+}
+
